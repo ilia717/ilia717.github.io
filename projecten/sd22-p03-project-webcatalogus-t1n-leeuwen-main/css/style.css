@@ -1,0 +1,59 @@
+/* Put yor own CSS code here when needed
+body {
+    background: linear-gradient(-45deg, #00ffff, #342121, #4305e2, #00ffff,#342121,#4305e2
+    );
+    background-size: 400% 400%;
+    animation: gradient 4s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 50% 25%;
+    }
+
+    50% {
+        background-position: 100% 100%;
+    }
+
+    100% {
+        background-position: 100% 100%;
+    }
+} */
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* .col:hover {
+    color: orange;
+    cursor: pointer;
+} */
+/* .backround-img {
+    background-image: url('../img/game\ over.avif');
+    height: 100vh;
+    width: 100vh;
+    object-fit: cover;
+} */
+
+.limit-text {
+    display: block;
+    word-wrap: break-word;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+            line-clamp: 3; 
+    -webkit-box-orient: vertical;
+}
+
+.truncate-text {
+    display: inline-block;
+    width: 180px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+.games {
+    background-color: rgba(25,98,67,1);
+}
