@@ -1,0 +1,34 @@
+body, html, #bgton{
+
+    width:100%;
+    height:100%;
+    margin:0;padding:0;
+}
+
+#bgton{
+    position: absolute;
+    
+}
+
+#bgton > img {
+    width:100vw;
+    height:100vh;
+}
+
+#plank{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 150px;
+    background-image: url(../pictures/plankje.png);
+    visibility: visible;
+}
+
+#terug{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    background-color: rgba(245, 199, 114, 0.918);
+}

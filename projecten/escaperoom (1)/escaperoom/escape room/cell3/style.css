@@ -1,0 +1,62 @@
+body, html, #bgcell3{
+
+    width:100%;
+    height:100%;
+    margin:0;padding:0;
+}
+
+#bgcell3{
+    position: absolute;
+    
+}
+
+#bgcell3 > img {
+    width:100vw;
+    height:100vh;
+}
+
+#terug3{
+    position: absolute;
+    top: 67%;
+    left: 56%;
+    background-color:darkgrey ;
+    cursor: pointer; 
+    border-radius: 25%;
+    cursor: pointer; 
+}
+
+#blaadje{
+    position: absolute;
+    top: 78%;
+    left: 45%;
+    cursor: pointer;
+    border-radius: 25%;
+    background-color: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+
+#blaadje3{
+    height: 430px;
+    width: 400px;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: 300px;
+    background-image: url(../pictures/vlekken.jpg);
+    margin: 0;
+    padding: 0;
+    visibility: hidden; 
+    
+}
+
+#weg{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: orange;
+    cursor: pointer;
+}

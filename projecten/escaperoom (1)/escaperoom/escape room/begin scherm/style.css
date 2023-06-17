@@ -1,0 +1,55 @@
+body, html, .bgbegin{
+
+    width:100%;
+    height:100%;
+    margin:0;padding:0;
+}
+
+.bgbegin{
+    position: absolute;
+    
+}
+
+.bgbegin > img {
+    width:100vw;
+    height:100vh;
+}
+ 
+#start{
+    position: absolute;
+    background-color: rgb(215, 207, 182);
+    top: 50%;
+    left: calc(50% - 87.5px);
+    border-radius: 25%;
+    height: 50px;
+    width: 175px;
+    cursor: pointer;
+    
+}
+
+#info{
+    position: absolute;
+    background-color: rgb(215, 207, 182);
+    top: 60%;
+    left: calc(50% - 87.5px);
+    border-radius: 25%;
+    height: 50px;
+    width: 175px;
+    cursor: pointer;
+    
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* img{
+    background-image: url(../pictures/beginscherm/begin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+} */
