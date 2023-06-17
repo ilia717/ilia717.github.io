@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+}
+
+.vs {
+    float: right;
+    height: 50px;
+    width: 50px;
+    background-color: #9D0B0B;
+    margin-top: 50%;
+    border-radius: 150px 0 0 150px;
+    text-align: right;
+    font-size: 40px;
+    text-decoration: double;
+}
+
+.container1 {
+    height: 100vh;
+    width: 50%;
+    float: left;
+    background-color: hsla(0, 100%, 50%, 1);
+    background-image:
+        radial-gradient(at 40% 20%, hsla(0, 100%, 74%, 1) 0px, transparent 50%),
+        radial-gradient(at 80% 0%, hsla(0, 100%, 56%, 0) 0px, transparent 50%),
+        radial-gradient(at 0% 50%, hsla(0, 100%, 93%, 0.61) 0px, transparent 50%),
+        radial-gradient(at 80% 50%, hsla(7, 100%, 76%, 0) 0px, transparent 50%),
+        radial-gradient(at 0% 100%, hsla(22, 100%, 77%, 1) 0px, transparent 50%),
+        radial-gradient(at 80% 100%, hsla(240, 0%, 0%, 1) 0px, transparent 50%),
+        radial-gradient(at 0% 0%, hsla(340, 100%, 49%, 1) 0px, transparent 50%);
+}
+
+.header {
+    height: 30px;
+    width: 377px;
+    background-color: #9D0B0B;
+    margin: auto;
+    margin-top: 25px;
+    padding-top: 50px;
+    border-radius: 50px;
+}
+
+.box1 {
+    height: 170px;
+    width: 377px;
+    margin: auto;
+    margin-top: 40px;
+    
+}
+
+.midbar1 {
+    height: 170px;
+    width: 151px;
+    background-color: #DA2D2D;
+    float: right;
+    border-radius: 20px;
+    
+}
+
+.midbar2 {
+    height: 170px;
+    width: 151px;
+    background-color: #DA2D2D;
+    margin-right: 0px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.input{
+    position: relative;
+    height: 85px;
+    width: 158px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 85px;
+    width: 100%;
+    background-color: #EB8242;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.input.light {
+    background-color: #F6DA63;
+}
+.input.light>input{
+    font-size: 42pt;
+    text-align: center;
+}
+
+input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 85px;
+    width: 158px;
+    background-color: #F6DA63;
+    border-radius: 20px;
+    cursor: text;
+    font-weight: bold;
+}
+
+.container2 {
+    height: 100vh;
+    width: 50%;
+    float: left;
+    background-color: hsla(237, 100%, 49%, 1);
+    background-image:
+        radial-gradient(at 40% 20%, hsla(222, 14%, 65%, 0.9) 0px, transparent 50%),
+        radial-gradient(at 80% 0%, hsla(227, 56%, 60%, 1) 0px, transparent 50%),
+        radial-gradient(at 0% 50%, hsla(229, 100%, 51%, 1) 0px, transparent 50%),
+        radial-gradient(at 80% 50%, hsla(216, 0%, 0%, 1) 0px, transparent 50%),
+        radial-gradient(at 0% 100%, hsla(235, 100%, 11%, 1) 0px, transparent 50%),
+        radial-gradient(at 80% 100%, hsla(240, 70%, 10%, 0.33) 0px, transparent 50%),
+        radial-gradient(at 0% 0%, hsla(227, 22%, 87%, 1) 0px, transparent 50%);
+}
+
+.vs2 {
+    height: 50px;
+    width: 50px;
+    background-color: #2B4865;
+    margin-top: 50%;
+    float: left;
+    border-radius: 0 150px 150px 0;
+    font-size: 40px;
+
+}
+
+.header2 {
+    height: 30px;
+    width: 377px;
+    background-color: #002B5B;
+    margin: auto;
+    margin-top: 25px;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 50px;
+}
+
+.box2 {
+    height: 170px;
+    width: 377px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.midbar3 {
+    height: 170px;
+    width: 151px;
+    background-color: #2B4865;
+    float: left;
+    margin-left: 0px;
+    border-radius: 20px;
+}
+
+.midbar4 {
+    height: 170px;
+    width: 151px;
+    background-color: #2B4865;
+    float: right;
+    margin-right: 0px;
+    border-radius: 20px;
+}
+
+.knop3 {
+    height: 85px;
+    width: 158px;
+    background-color: #256D85;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    position: relative;
+}
+
+#btn-hoger {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 85px;
+    width: 100%;
+    background-color: #256D85;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.knop4 {
+    height: 85px;
+    width: 158px;
+    background-color: #256D85;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    position: relative;
+}
+
+#btn-lager {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 85px;
+    width: 100%;
+    background-color: #3a8487;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.credits-totaal {
+    background-color: rgb(101, 7, 7);
+    float: left;
+    height: 70px;
+    width: 200px;
+    border-radius: 20px;
+    margin-top: 630px;
+    margin-left: 15px;
+}
+#bankDob1, #bankDob2, #playerDob1, #playerDob2 {
+    font-size: 140px;
+    text-align: center;
+}
+
+#credits {
+    cursor: text;
+    text-align: center;
+    font-weight: bold;
+    font-size: 42pt;
+}
+h2 {
+    text-align: center;
+}
